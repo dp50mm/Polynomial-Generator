@@ -30,3 +30,56 @@
     transform: rotate(360deg);
   }
 }
+
+.rv-xy-plot {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:60px;
+}
+
+
+.plots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.math-plot {
+  position: relative;
+  display: auto;
+  overflow-wrap: break-word;
+  margin: 15px;
+  width: 1060px;
+  height: 1060px;
+  padding:25px;
+  background: #383842;
+  color: #f9f8fb;
+  text-overflow: ellipsis;
+}
+
+.math-plot .description {
+  position:absolute;
+  padding-left:15px;
+  padding-right: 15px;
+  font-size: 25px;
+  margin: 0px;
+  min-width: 0;
+}
+.math-plot .description p {
+  margin: 0px;
+  opacity: 0;
+}
+
+.math-plot text {
+  opacity: 0;
+}
+
+.math-plot line {
+  opacity: 0;
+}
+
+.math-plot path {
+  stroke-width: 20px;
+  stroke-linecap: round;
+  stroke: #e59990 !important;
+}
